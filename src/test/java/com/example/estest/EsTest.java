@@ -28,7 +28,7 @@ import java.io.IOException;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
-class EsTestApplicationTests
+class EsTest
 {
     private static RestHighLevelClient client;
 

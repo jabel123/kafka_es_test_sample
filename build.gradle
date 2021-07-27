@@ -30,6 +30,12 @@ dependencies {
 
     // elasticsearch test
     testImplementation "org.testcontainers:elasticsearch:1.15.3"
+
+    // kafka
+    implementation 'org.springframework.kafka:spring-kafka'
+
+    // kafka test
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
 }
 
 test {
